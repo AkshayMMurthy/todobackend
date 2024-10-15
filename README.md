@@ -1,4 +1,4 @@
-I created a todo list api to do the following:
+I created a todo list api to do the following using ExpressJS:
 
 
 Get all todos - GET API
