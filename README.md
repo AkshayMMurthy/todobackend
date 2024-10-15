@@ -11,16 +11,13 @@ Delete the todo - DELETE API
 
 MongoDB has been used as the database
 
+index.js contains all the APIs
 
+/api/todos/ - GET
 
+/api/todos/ - POST ("title":"<title-name">)
 
+/api/todos/:id - PUT 
 
-Deployed on https://todobackend-htch.onrender.com/ If testing please wait for some time to get responses as Render scales down free tier services after inactivity.
+/api/todos/:id - DELETE
 
-https://todobackend-htch.onrender.com/api/todos/ - GET
-
-https://todobackend-htch.onrender.com/api/todos/ - POST ("title":"<title-name">)
-
-https://todobackend-htch.onrender.com/api/todos/:id - PUT 
-
-https://todobackend-htch.onrender.com/api/todos/:id - DELETE
