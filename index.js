@@ -12,7 +12,7 @@ app.use(express.json());
 
 // MongoDB connection
 mongoose
-  .connect("mongodb+srv://aksmur679:VwrCcAI4t9nHAyz9@cluster0.qukat.mongodb.net/", {
+  .connect(process.env.ATLAS_URI, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
